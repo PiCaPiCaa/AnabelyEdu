@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>El puente — Sevilla ↔ Las Palmas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="assets/style.css" rel="stylesheet">
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-title">Sevilla ↔ Las Palmas</div>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="historia.html">Historia</a>
+      <a href="cartas.html">Cartas</a>
+      <a href="rituales.html">Rituales</a>
+      <a href="galeria.html">Galería</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Próximo encuentro</h2>
+      <div class="card">
+        <p><strong>Fecha:</strong> [dd/mm]</p>
+        <p><strong>Lugar:</strong> [barrio/ciudad]</p>
+        <p><strong>Plan:</strong> té, paseo, carta breve</p>
+        <p class="note">Lo importante no es el plan, es el “sí”.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Mensaje rápido</h2>
+      <div class="card">
+        <form onsubmit="event.preventDefault(); alert('Gracias. Tu mensaje llegó a mi corazón.');">
+          <input type="text" placeholder="Tu nombre">
+          <input type="email" placeholder="Tu email">
+          <textarea rows="5" placeholder="Tu mensaje"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>© Hecho con cariño — Sevilla y Gran Canaria</small>
+  </footer>
+</body>
+</html>
